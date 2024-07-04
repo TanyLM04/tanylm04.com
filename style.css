@@ -1,0 +1,45 @@
+
+
+.profile {
+    background:royalblue;
+    color:aliceblue;
+}
+
+.profile__container{
+    border-radius: 50%;
+    position: relative;
+    height: 10em;
+    width: 10em;
+    top: 1.1em;
+    left: 1.1em;
+    overflow: hidden;
+}
+
+.profile__container-picture{
+    height: 13.5em;
+    bottom: 1em;
+    right: 0.1em;
+    position: relative;
+    float: left;
+}
+
+
+.inline-block {
+    display: inline-block;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: 1.1em;
+}
+
+.profile__name{
+    margin: 0.5em 0 0 0.5em;
+    padding: 0;
+}
+
+li::marker {
+    color: rgb(97, 97, 231);
+}
+
+h2 {
+    text-decoration: underline royalblue;
+}
